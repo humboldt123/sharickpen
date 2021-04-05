@@ -1,0 +1,45 @@
+body {
+    font-size: 150%;
+}
+#main {
+    background: rgba(100, 70, 80, 0.3);
+    border-radius: 10px;
+    padding: 1em;
+}
+#background {
+    position: absolute;
+    flex-direction: column;
+    z-index: -1;
+}
+#foreground {
+    height: 100vh;
+}
+.flex-center {
+    justify-content: center;
+    align-items: center;
+}
+.text-center {
+    text-align: center;
+}
+.gizmo {
+    width: 12em;
+    height: 12em;
+    transform: translateY(0);
+    animation-duration: 1.5s;
+    animation: 1.5s ease-in-out infinite;
+    animation-name: float;
+    cursor: pointer;
+}
+.gizmo:hover {
+    filter: brightness(80%);
+}
+
+.gizmo:active {
+    filter: brightness(120%);
+}
+
+@keyframes float {
+    0% {transform: translateY(0);}
+    50% {transform: translateY(0.3rem);}
+    100% {transform: translateY(0);}
+}

@@ -1,0 +1,13 @@
+{
+    "sharicklang_path": "",
+    "sharicklang_debug": "false",
+    "http": {
+        "port": 80
+    },
+    "https": {
+        "enabled": false,
+        "port": 443,
+        "key_path": "",
+        "cert_path": ""
+    }
+}

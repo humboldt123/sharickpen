@@ -1,0 +1,17 @@
+{
+  "name": "sharickpen",
+  "version": "1.0.0",
+  "description": "Play with the Sharick++ language right in your browser",
+  "main": "index.js",
+  "scripts": {
+    "run": "node index.js"
+  },
+  "author": "Humboldt123",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "https": "^1.0.0",
+    "cors": "^2.8.5",
+    "fs": "0.0.1-security"
+  }
+}

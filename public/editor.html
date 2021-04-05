@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8">
+<head>
+    <title>Sharick++ Online</title>
+    <meta name="title" content="Sharickpen">
+    <meta name="description" content="Play with the Sharick++ language right in your browser">
+    <meta name="theme-color" content="#a884f3">
+    <meta property="og:title" content="Sharickpen">
+    <meta property="og:description" content="Play with the Sharick++ language right in your browser">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="./assets/style.css" rel="stylesheet">
+    <link href="./assets/editor.css" rel="stylesheet">
+</head>
+<body>
+    <div id="main" class="flex">
+        <div class="flex" style="flex-direction: column;">
+            <div class="icon-div"><img src="assets/run.png" alt="Run" class="icon-image" onclick="run()"></div>
+            <div class="icon-div"><img src="assets/clear.png" alt="Clear" class="icon-image" onclick="stdout.setValue(``);"></div>
+            <div class="icon-div"><img src="assets/source.png" alt="Source Code" class="icon-image" onclick="javascript:window.location='https://github.com/humboldt123/sharickpen';"></div>
+            <div class="icon-div"><img src="assets/docs.png" alt="Documentation" class="icon-image" onclick="javascript:window.location='https://github.com/bmcq-0/Sharick/blob/master/README.md#sharick-syntax--api';"></div>
+        </div>
+        <div class="container">
+            <h1 class="title">Code Editor</h1>
+            <div id="editor" class="textbox"></div>
+        </div>
+        <div class="container">
+            <h1 class="title">Output Console</h1>
+            <div id="stdout" class="textbox"></div>
+        </div>
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.12/ace.js" type="text/javascript" charset="utf-8"></script>
+    <script src="./assets/editor.js"></script>
+</body>
+</html>
