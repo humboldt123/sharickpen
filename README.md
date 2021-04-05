@@ -22,7 +22,7 @@ You can read up more on Sharick++ by reading the docs [here](https://github.com/
 - [npm](https://www.npmjs.com/get-npm)
 - [Sharick++](https://github.com/bmcq-0/Sharick)
 
-You can download most of them on their respective websites on Windows and Mac, or use a Package Manager on Linux. You can view instructions to install Sharick++ [here](https://github.com/bmcq-0/Sharick/blob/master/README.md#sharick-syntax--api)
+You can download most of them on their respective websites on Windows and Mac, or use a Package Manager on Linux. You can view instructions to install Sharick++ [here](https://github.com/bmcq-0/Sharick/blob/master/README.md#sharick-use)
 
 ### Setup
 
