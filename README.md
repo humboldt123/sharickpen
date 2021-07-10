@@ -4,7 +4,7 @@
 
 Try out Sharick++ right in your browser; our submission for CodeFest III.
 
-**If you do not wish to selfhost this project, you can still try it out using [this convenient link](https://sharickpen.skrub.dev)**
+**If you do not wish to selfhost this project, you can still try it out using ~~[this convenient link](https://sharickpen.skrub.dev)~~ We stopped hosting this project, you have to build it yourself**
 
 ## Hello World
 Here is a simple "Hello World" program in Sharick++
